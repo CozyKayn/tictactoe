@@ -1,0 +1,95 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+    color: blue;
+    box-shadow: 5px blue;
+}
+
+body{
+    background-color: black;
+}
+div #containter {
+    border: 3px blue solid;
+}
+div {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+table, tr, td{
+    border: 2px blue solid;
+}
+td{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-size: 75px; 
+    color: blue;
+}
+button{
+    background-color: black;
+    border: 3px blue solid;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#textDisplay{
+    color: blue;
+    font-size: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 700px;
+    text-align: center;
+}
+#checkName{
+    display: flex;
+    position: absolute;
+    left: 255px;
+    bottom: 450px;
+    font-size: 25px;
+}
+#playerOne{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    display: flex;
+    font-size: 50px;
+}
+#playerTwo{
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-size: 50px;
+}
+#reset{
+    font-size: 30px;
+    position: absolute;
+    left: 765px;
+    bottom: 175px;
+}
+p{
+    color: blue;
+}
+#player1{
+    font-size: 50px;
+}
+#player2{
+    font-size: 50px;
+}
+#scoreBoard{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+#resetScore{
+    position: absolute;
+    top: 500px;
+    right: 245px;
+    font-size: 30px;
+}

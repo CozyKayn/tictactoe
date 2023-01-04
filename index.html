@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">` 
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="something.css">
+</head>
+<body onload="initialize()"> 
+   <div>
+    <h1 id="containter" class="shadowed"><em>Tic Tac Toe</em></h1>
+   </div> 
+   <div>
+    <table>
+        <tr>
+            <td id="t1" onclick="change(t1)"></td>
+            <td id="t2" onclick="change(t2)"></td>
+            <td id="t3" onclick="change(t3)"></td>
+        </tr>
+        <tr>
+            <td id="t4" onclick="change(t4)"></td>
+            <td id="t5" onclick="change(t5)"></td> 
+            <td id="t6" onclick="change(t6)"></td>
+        </tr>
+        <tr>
+            <td id="t7" onclick="change(t7)"></td>
+            <td id="t8" onclick="change(t8)"></td>
+            <td id="t9" onclick="change(t9)"></td>
+        </tr>
+       </table>
+   </div>
+   <div id="textDisplay"></div>
+   <button id="reset" onclick="reset()">Reset</button>
+   <p id="playerOne">Player 1: X</p>
+   <p id="playerTwo">Player 2: O</p>
+   <table id="scoreBoard">
+    <tr>
+        <td id="player1">Player 1</td>
+        <td id="player2">Player 2</td>
+    </tr>
+    <tr>
+        <td id="playerOneScore">0</td>
+        <td id="playerTwoScore">0</td> 
+   </tr>
+   </table>
+   <button id="resetScore" onclick="resetScore()">Reset Score</button>
+</body>
+</html>
