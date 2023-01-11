@@ -93,3 +93,6 @@ p{
     right: 245px;
     font-size: 30px;
 }
+@keyframes yes{
+    background-color: red;
+}
