@@ -38,6 +38,10 @@ button{
     display: flex;
     justify-content: center;
     text-align: center;
+    animation-name: background;
+    animation-name: textanime; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #textDisplay{
     color: blue;
@@ -93,6 +97,11 @@ p{
     right: 245px;
     font-size: 30px;
 }
-@keyframes yes{
-    background-color: red;
+@keyframes background{
+    from {background-color: black;}
+    to {background-color: red;}
+}
+@keyframes textanime{
+    from {color: blue;}
+    to {color: black;}
 }
