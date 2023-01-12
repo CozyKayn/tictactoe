@@ -10,7 +10,7 @@ h1{
 }
 
 body{
-    background: linear-gradient(to left top, #76C893, #168AAD);
+    background: linear-gradient(to right, #76C893, #52B69A, #34A0A4, #168AAD);
 }
 div #containter {
     border: 3px blue solid;
@@ -36,12 +36,7 @@ button{
     display: flex;
     justify-content: center;
     text-align: center;
-    animation-name: fourColorAnime;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-button:hover{
-    font-size: 40px;
+    background-color: transparent;
 }
 #textDisplay{
     color: blue;
@@ -76,6 +71,11 @@ button:hover{
     position: absolute;
     left: 765px;
     bottom: 175px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+#reset:hover{
+    background-color: #168AAD;
 }
 p{
     color: blue;
@@ -96,6 +96,11 @@ p{
     top: 500px;
     right: 245px;
     font-size: 30px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+#resetScore:hover{
+    background-color: #76C893;
 }
 @keyframes fourColorAnime{
     0% {background-color: #76C893;}
