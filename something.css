@@ -100,6 +100,7 @@ p{
     font-size: 30px;
 }
 @keyframes fourColorAnime{
+    /*
     0% {background-color: #76C893;}
     16% {background-color: #52B69A;}
     32% {background-color: #34A0A4;}
@@ -107,6 +108,30 @@ p{
     64% {background-color: #34A0A4;}
     82% {background-color: #52B69A;}
     100% {background-color: #76C893;}
+    */
+    0% {background-color: black;}
+    5% {background-color: white;}
+    10% {background-color: black;}
+    15% {background-color: white;}
+    20% {background-color: black;}
+    25% {background-color: white;}
+    30% {background-color: black;}
+    35% {background-color: white;}
+    40% {background-color: black;}
+    45% {background-color: white;}
+    50% {background-color: black;}
+    55% {background-color: white;}
+    60% {background-color: black;}
+    65% {background-color: white;}
+    70% {background-color: black;}
+    75% {background-color: white;}
+    80% {background-color: black;}
+    85% {background-color: white;}
+    90% {background-color: black;}
+    95% {background-color: white;}
+    100% {background-color: black;}
+
+
 }
 @keyframes textanime{
     from {background-color: #168AAD;}
