@@ -5,13 +5,14 @@ h1{
     justify-content: center;
     align-items: center;
     width: 300px;
-    background-color: black;
     color: blue;
     box-shadow: 5px blue;
 }
 
 body{
-    background-color: black;
+    animation-name: fourColorAnime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 div #containter {
     border: 3px blue solid;
@@ -32,16 +33,17 @@ td{
     color: blue;
 }
 button{
-    background-color: black;
     border: 3px blue solid;
     color: blue;
     display: flex;
     justify-content: center;
     text-align: center;
-    animation-name: background;
-    animation-name: textanime; 
-    animation-duration: 3s;
+    animation-name: fourColorAnime;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+}
+button:hover{
+    font-size: 40px;
 }
 #textDisplay{
     color: blue;
@@ -97,11 +99,16 @@ p{
     right: 245px;
     font-size: 30px;
 }
-@keyframes background{
-    from {background-color: black;}
-    to {background-color: red;}
+@keyframes fourColorAnime{
+    0% {background-color: #76C893;}
+    16% {background-color: #52B69A;}
+    32% {background-color: #34A0A4;}
+    48% {background-color: #168AAD;}
+    64% {background-color: #34A0A4;}
+    82% {background-color: #52B69A;}
+    100% {background-color: #76C893;}
 }
 @keyframes textanime{
-    from {color: blue;}
-    to {color: black;}
+    from {background-color: #168AAD;}
+    to {background-color: #76C893;}
 }
