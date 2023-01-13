@@ -153,8 +153,3 @@ function win(){
 
 };
 
-function computerPlayer{
-    if (t5 == 'x') {
-        
-    }
-}
