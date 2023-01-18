@@ -8,9 +8,18 @@ h1{
     color: blue;
     box-shadow: 5px blue;
 }
-
+#textDisplay{
+    color: blue;
+    font-size: 45px;
+    position: absolute;
+    top: 67%;
+    left: 43%;
+}
 body{
-    background: linear-gradient(to right, #76C893, #52B69A, #34A0A4, #168AAD);
+    background-color: #76C893;
+    animation-name: fourColorAnime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 div #containter {
     border: 3px blue solid;
@@ -38,14 +47,6 @@ button{
     text-align: center;
     background-color: transparent;
 }
-#textDisplay{
-    color: blue;
-    font-size: 50px;
-    position: absolute;
-    bottom: 100px;
-    left: 700px;
-    text-align: center;
-}
 #checkName{
     display: flex;
     position: absolute;
@@ -55,27 +56,28 @@ button{
 }
 #playerOne{
     position: absolute;
-    left: 200px;
-    top: 200px;
+    left: 15%;
+    top: 25%;
     display: flex;
     font-size: 50px;
 }
 #playerTwo{
     position: absolute;
-    left: 200px;
-    top: 275px;
+    left: 15%;
+    top: 33%;
     font-size: 50px;
 }
 #reset{
     font-size: 30px;
     position: absolute;
-    left: 765px;
-    bottom: 175px;
+    left: 47%;
+    bottom: 20%;
     transition-property: background-color;
     transition-duration: 0.5s;
 }
 #reset:hover{
     background-color: #168AAD;
+    color: #76C893;
 }
 p{
     color: blue;
@@ -88,19 +90,20 @@ p{
 }
 #scoreBoard{
     position: absolute;
-    top: 200px;
-    right: 200px;
+    top: 20%;
+    right: 12%;
 }
 #resetScore{
     position: absolute;
-    top: 500px;
-    right: 245px;
+    top: 55%;
+    right: 14.5%;
     font-size: 30px;
     transition-property: background-color;
     transition-duration: 0.5s;
 }
 #resetScore:hover{
-    background-color: #76C893;
+    background-color: #168AAD;
+    color: #76C893;
 }
 @keyframes fourColorAnime{
     0% {background-color: #76C893;}
