@@ -39,6 +39,11 @@ td{
     font-size: 75px; 
     color: blue;
 }
+#table{
+    position: absolute;
+    left: 50%;
+    top: 50%
+}
 button{
     border: 3px blue solid;
     color: blue;
