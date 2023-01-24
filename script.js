@@ -152,4 +152,18 @@ function win(){
     }
 
 };
+//function stop prevents the infinite points bugs
+function stop{ 
+    if (display.innerHTML != "") {
+    document.getElementById('t1').id = 'a1';
+    document.getElementById('t2').id = 'a2';
+    document.getElementById('t3').id = 'a3';
+    document.getElementById('t4').id = 'a4';
+    document.getElementById('t5').id = 'a5';
+    document.getElementById('t6').id = 'a6';
+    document.getElementById('t7').id = 'a7';
+    document.getElementById('t8').id = 'a8';
+    document.getElementById('t9').id = 'a9';
+    }
+}
 
